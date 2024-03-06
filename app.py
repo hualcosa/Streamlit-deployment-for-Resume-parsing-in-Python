@@ -29,7 +29,7 @@ def pred(text):
         output[ent.label_.upper()]=ent.text
     return output
 
-st.image('./project_pro_logo_white.png')
+st.image('./resume_parsing.png')
 st.title("Resume Parser with Spacy")
 st.subheader("Upload your resume here!")
 uploaded_file = st.file_uploader("Upload Files",type=['pdf','docx'])
